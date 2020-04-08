@@ -2,7 +2,7 @@ var classicMode = false ;
    var summary = 40;
    var indent = 3;
    imgr = new Array();
-   imgr[0] = "http://2.bp.blogspot.com/-mmjt8mh87bQ/VQ6ltMr8GxI/AAAAAAAAEfo/93SmjxkwmO0/s1600/no-image-found.jpg";
+   imgr[0] = "https://monochroomlab.com/wp-content/uploads/2020/04/no-image-icon-no-border-radius@2x.png";
    showRandomImg = true;
    aBold = true;
    summaryPost = 220; 
@@ -34,7 +34,7 @@ var classicMode = false ;
    
    s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);
    if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!=""))
-   {thumburl[relatedTitlesNum]=d;} else {if(typeof(defaultnoimage) !== 'undefined') thumburl[relatedTitlesNum]=defaultnoimage; else thumburl[relatedTitlesNum]="http://2.bp.blogspot.com/-mmjt8mh87bQ/VQ6ltMr8GxI/AAAAAAAAEfo/93SmjxkwmO0/s1600/no-image-found.jpg";}
+   {thumburl[relatedTitlesNum]=d;} else {if(typeof(defaultnoimage) !== 'undefined') thumburl[relatedTitlesNum]=defaultnoimage; else thumburl[relatedTitlesNum]="https://monochroomlab.com/wp-content/uploads/2020/04/no-image-icon-no-border-radius@2x.png";}
    
    }
    
