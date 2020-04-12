@@ -8,7 +8,7 @@ var randomRelatedIndex, showRelatedPost;
   numPosts: 7,
   summaryLength: 370,
   titleLength: "auto",
-  thumbnailSize: 72,
+  thumbnailSize: 150,
   noImage: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAA3NCSVQICAjb4U/gAAAADElEQVQImWOor68HAAL+AX7vOF2TAAAAAElFTkSuQmCC",
   containerId: "related-post",
   newTabLink: false,
