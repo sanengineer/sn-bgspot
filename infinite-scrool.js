@@ -64,7 +64,7 @@ function loadMore() {
     }
     
     //Render Reading time
-    loadSnReadingTime();
+    loadSnReadingTime(window);
     
     // Render Facebook buttons.
     if (window.FB && window.FB.XFBML && window.FB.XFBML.parse) {
