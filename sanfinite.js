@@ -3,7 +3,7 @@ var loadingGif = 'https://lh3.googleusercontent.com/-FiCzyOK4Mew/T4aAj2uVJKI/AAA
 var olderPostsLink = '';
 var loadMoreDiv = null;
 var postContainerSelector = 'div.blog-posts';
-var loading =  true;
+var loading =  false;
 
 var win = $(window);
 var doc = $(document);
