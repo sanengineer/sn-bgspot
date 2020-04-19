@@ -14,6 +14,19 @@ function loadDisqusScript(domain) {
   $.getScript('http://' + domain + '.disqus.com/blogger_index.js');
 }
 
+function loadSnReadingTime {
+$('.rdtm').each(function() {
+
+                let _this = $(this);
+
+                _this.readingTime({
+                    readingTimeTarget: _this.find('.eta'),
+                    remotePath: _this.attr('data-file'),
+                    remoteTarget: _this.attr('data-target')
+                });
+            });
+}
+  
 function loadMore() {
   if (loading) {
     return;
@@ -49,6 +62,10 @@ function loadMore() {
     if (window.disqus_shortname) {
       loadDisqusScript(window.disqus_shortname);
     }
+    
+    //Render Reading time
+    loadSnReadingTime();
+    
     // Render Facebook buttons.
     if (window.FB && window.FB.XFBML && window.FB.XFBML.parse) {
       window.FB.XFBML.parse();
